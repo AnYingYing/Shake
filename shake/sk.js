@@ -62,7 +62,7 @@ $(document).ready(function(){
 	
 		toChange(400);
 
-		oImg.innerHTML = '您的手机被病毒入侵';
+		// oImg.innerHTML = '您的手机被病毒入侵';
 	}
 	
 	chushi();
