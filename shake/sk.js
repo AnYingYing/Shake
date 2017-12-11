@@ -164,9 +164,19 @@ $(document).ready(function(){
 	
 	btn.onclick = function(){
 
-		document.body.removeChild(img1);
-		// oImg.style.display = "none";
-		// btn.style.display = "none";
+		//document.body.removeChild(img1);
+		oImg.style.display = "none";
+		btn.style.display = "none";
+		
+		setTimeout(function(){
+
+			oImg.style.width = 50 + 'px';
+			oImg.style.height = 50 + 'px';
+
+			chushi();
+
+		},500);
+		
 	}
 
 
