@@ -45,7 +45,7 @@ $(document).ready(function(){
 	var timer;
 	
 var isbool = 1;
-	
+
 	function chushi() {
 
 		disX = 0;
@@ -84,7 +84,7 @@ var isbool = 1;
 
 				if(isbool){
 					isbool = 0;
-					oImg.innerHTML +=  '您的手机被病毒入侵';
+					oImg.innerHTML +=  '<br>您的手机被病毒入侵';
 				}
 				
 			}
