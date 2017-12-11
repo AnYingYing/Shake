@@ -168,7 +168,7 @@ $(document).ready(function(){
 		oImg.style.display = "none";
 		btn.style.display = "none";
 		
-		alert("zoule");
+		//alert("zoule");
 
 		setTimeout(function(){
 
