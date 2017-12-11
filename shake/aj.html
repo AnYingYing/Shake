@@ -18,14 +18,15 @@
 <script type="text/javascript" src="./jquery-1-7-2.js"></script>
 <script type="text/javascript">
 
-	var originHtml = oImg.innerHTML;
+	
 
 	$.getScript("sk.js");
 
 	function btnAction() {
 		var oImg = document.getElementById('img1');
 
-		oImg.innerHTML = originHtml + '刘民是个大傻屌';
+
+		oImg.innerHTML  += '<br>刘民是个大傻屌';
 	}
 
 </script>
