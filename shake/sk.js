@@ -32,24 +32,40 @@ $(document).ready(function(){
 	var oImg = document.getElementById('img1');
 	var btn = document.getElementById('btn');
 
-	var disX = 0;
-	var disY = 0;
+	var disX;
+	var disY;
 	
-	var prevX = 0;
-	var prevY = 0;
-	var iSpeedX = 0;
-	var iSpeedY = 0;
+	var prevX;
+	var prevY;
+	var iSpeedX;
+	var iSpeedY;
 	
-	var timer = null;
+	var timer;
 	
-	oImg.style.left = document.documentElement.clientWidth/2 + 'px';
-	oImg.style.top = document.documentElement.clientHeight/2 + 'px';
+	function chushi() {
+
+		disX = 0;
+		disY = 0;
 	
-	oImg.style.display = "block";
-	btn.style.display = "block";
+		prevX = 0;
+		prevY = 0;
+		iSpeedX = 0;
+		iSpeedY = 0;
 	
-	toChange(210);
+		timer = null;
+
+		oImg.style.left = document.documentElement.clientWidth/2 + 'px';
+		oImg.style.top = document.documentElement.clientHeight/2 + 'px';
 	
+		oImg.style.display = "block";
+		btn.style.display = "block";
+	
+		toChange(210);
+
+	}
+	
+	chushi();
+
 	function toChange(iTarget){
 		
 		var offsetL = oImg.offsetLeft;
@@ -149,7 +165,8 @@ $(document).ready(function(){
 	btn.onclick = function(){
 
 		document.body.removeChild(img1);
-
+		// oImg.style.display = "none";
+		// btn.style.display = "none";
 	}
 
 
