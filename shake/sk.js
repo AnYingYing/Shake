@@ -60,7 +60,7 @@ $(document).ready(function(){
 		oImg.style.display = "block";
 		btn.style.display = "block";
 	
-		toChange(210);
+		toChange(400);
 
 	}
 	
