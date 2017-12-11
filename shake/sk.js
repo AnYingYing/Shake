@@ -168,6 +168,8 @@ $(document).ready(function(){
 		oImg.style.display = "none";
 		btn.style.display = "none";
 		
+		alert("zoule");
+
 		setTimeout(function(){
 
 			oImg.style.width = 50 + 'px';
