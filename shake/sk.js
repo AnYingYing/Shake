@@ -81,11 +81,8 @@ var isbool = 1;
 				clearInterval(timer);
 				//startMove();
 				
-
-				if(isbool){
-					isbool = 0;
 					oImg.innerHTML +=  '<br>您的手机被病毒入侵';
-				}
+				
 				
 			}
 			else{
