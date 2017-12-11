@@ -32,7 +32,7 @@ $(document).ready(function(){
 	var oImg = document.getElementById('img1');
 	var btn = document.getElementById('btn');
 
-	//var originHtml = oImg.innerHTML;
+	var originHtml = oImg.innerHTML;
 
 	var disX;
 	var disY;
@@ -78,8 +78,10 @@ $(document).ready(function(){
 			if(oImg.offsetWidth == iTarget){
 				clearInterval(timer);
 				//startMove();
-				//
-				//oImg.innerHTML +=  '您的手机被病毒入侵';
+				
+				oImg.innerHTML =  originHtml + '您的手机被病毒入侵';
+				
+				
 			}
 			else{
 				oImg.style.width = oImg.offsetWidth + 10 + 'px';
