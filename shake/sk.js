@@ -79,7 +79,7 @@ $(document).ready(function(){
 				clearInterval(timer);
 				//startMove();
 				//
-				oImg.innerHTML +=  '您的手机被病毒入侵';
+				//oImg.innerHTML +=  '您的手机被病毒入侵';
 			}
 			else{
 				oImg.style.width = oImg.offsetWidth + 10 + 'px';
