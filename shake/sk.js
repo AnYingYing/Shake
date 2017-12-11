@@ -25,5 +25,5 @@ $(document).ready(function(){
 
 	// startVibrate(5000);
 
-	alert("888888");
+	alert("666666");
 });
