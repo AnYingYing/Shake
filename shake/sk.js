@@ -32,7 +32,7 @@ $(document).ready(function(){
 	var oImg = document.getElementById('img1');
 	var btn = document.getElementById('btn');
 
-	var originHtml = oImg.innerHTML;
+	//var originHtml = oImg.innerHTML;
 
 	var disX;
 	var disY;
@@ -43,6 +43,8 @@ $(document).ready(function(){
 	var iSpeedY;
 	
 	var timer;
+	
+var isbool = 1;
 	
 	function chushi() {
 
@@ -79,8 +81,11 @@ $(document).ready(function(){
 				clearInterval(timer);
 				//startMove();
 				
-				oImg.innerHTML =  originHtml + '您的手机被病毒入侵';
-				
+
+				if(isbool){
+					isbool = 0;
+					oImg.innerHTML +=  '您的手机被病毒入侵';
+				}
 				
 			}
 			else{
