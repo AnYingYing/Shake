@@ -15,25 +15,14 @@
 <script type="text/javascript" src="./jquery-1-7-2.js"></script>
 <script type="text/javascript">
 
-	
-
-	
-		var btn = document.getElementsByClassName('anniu')[0];
-
-		
-		//点击按钮开始震动
-		btn.onclick = function(){
-
-			$.getScript("sk.js");
-
-		}
-
-	
+	function btnAction() {
+		$.getScript("sk.js");
+	}
 
 </script>
 
 
-	<button class="anniu">获取</button>
+	<button class="anniu" onclick="btnAction()">获取</button>
 
 </body>
 </html>
