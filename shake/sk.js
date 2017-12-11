@@ -188,7 +188,7 @@ var isbool = 1;
 			chushi();
 			startVibrate(8000);
 
-		},500);
+		},300);
 		
 	}
 
