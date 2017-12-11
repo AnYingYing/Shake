@@ -46,6 +46,7 @@ $(document).ready(function(){
 	oImg.style.top = document.documentElement.clientHeight/2 + 'px';
 	
 	oImg.style.display = "block";
+	btn.style.display = "block";
 	
 	toChange(210);
 	
