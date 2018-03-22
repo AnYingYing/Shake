@@ -32,6 +32,7 @@ $(document).ready(function(){
 	var oImg = document.getElementById('img1');
 	var img2 = document.getElementById('img2');
 	var btn = document.getElementById('btn');
+	var zhezhao = document.getElementById('zhezhao');
 
 	//var originHtml = oImg.innerHTML;
 
@@ -186,6 +187,8 @@ var isbool = 1;
 		btn.style.display = "none";
 		stopVibrate();
 		
+		document.body.removeChild("zhezhao");
+
 		//alert("zoule");
 
 		// setTimeout(function(){
