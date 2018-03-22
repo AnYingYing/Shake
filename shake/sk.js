@@ -185,10 +185,9 @@ var isbool = 1;
 		oImg.style.display = "none";
 		img2.style.display = "none";
 		btn.style.display = "none";
-		zhezhao.style.display = "none";
 		stopVibrate();
 		
-
+		document.body.removeChild(zhezhao);
 
 		//alert("zoule");
 
