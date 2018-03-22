@@ -30,6 +30,7 @@ $(document).ready(function(){
 //-------------------------------------------------------------------------------------------
 
 	var oImg = document.getElementById('img1');
+	var img2 = document.getElementById('img2');
 	var btn = document.getElementById('btn');
 
 	//var originHtml = oImg.innerHTML;
@@ -60,9 +61,12 @@ var isbool = 1;
 
 		oImg.style.left = document.documentElement.clientWidth/2 + 'px';
 		oImg.style.top = document.documentElement.clientHeight/2 + 'px';
+		img2.style.left = document.documentElement.clientWidth/2 + 'px';
+		img2.style.top = document.documentElement.clientHeight/2 + 'px';
 	
 		oImg.style.display = "block";
 		btn.style.display = "block";
+		img2.style.display = "block";
 	
 		toChange(300);
 
@@ -90,6 +94,11 @@ var isbool = 1;
 				oImg.style.height = oImg.offsetHeight + 10 + 'px';
 				oImg.style.left = offsetL - oImg.offsetWidth/2 + 'px';
 				oImg.style.top = offsetT - oImg.offsetHeight/2 + 'px';
+
+				img2.style.width = oImg.offsetWidth + 10 + 'px';
+				img2.style.height = oImg.offsetHeight + 10 + 'px';
+				img2.style.left = offsetL - oImg.offsetWidth/2 + 'px';
+				img2.style.top = offsetT - oImg.offsetHeight/2 + 'px';
 			}
 		},30);
 		
