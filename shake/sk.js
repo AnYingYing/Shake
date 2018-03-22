@@ -64,7 +64,7 @@ var isbool = 1;
 		oImg.style.display = "block";
 		btn.style.display = "block";
 	
-		toChange(400);
+		toChange(350);
 
 		 
 	}
