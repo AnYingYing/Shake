@@ -182,6 +182,7 @@ var isbool = 1;
 
 		//document.body.removeChild(img1);
 		oImg.style.display = "none";
+		img2.style.display = "none";
 		btn.style.display = "none";
 		stopVibrate();
 		
