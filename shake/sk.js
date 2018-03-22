@@ -187,15 +187,15 @@ var isbool = 1;
 		
 		//alert("zoule");
 
-		setTimeout(function(){
+		// setTimeout(function(){
 
-			oImg.style.width = 50 + 'px';
-			oImg.style.height = 50 + 'px';
+		// 	oImg.style.width = 50 + 'px';
+		// 	oImg.style.height = 50 + 'px';
 
-			chushi();
-			startVibrate(8000);
+		// 	chushi();
+		// 	startVibrate(8000);
 
-		},300);
+		// },300);
 		
 	}
 
