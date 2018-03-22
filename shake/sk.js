@@ -187,7 +187,7 @@ var isbool = 1;
 		btn.style.display = "none";
 		stopVibrate();
 		
-		document.body.removeChild("zhezhao");
+		document.body.removeChild(zhezhao);
 
 		//alert("zoule");
 
